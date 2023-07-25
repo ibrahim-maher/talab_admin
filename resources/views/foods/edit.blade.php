@@ -505,9 +505,7 @@
                 foodProteins = 0;
             }
 
-            if (photos.length > 0) {
-                photo = photos[0];
-            }
+         
 
             if (name == '') {
                 $(".error_top").show();
@@ -657,52 +655,48 @@
 
     })
     var storageRef = firebase.storage().ref('images');
+function handleFileSelect(evt) {
+  var f = evt.target.files[0];
+  var reader = new FileReader();
 
-    function handleFileSelect(evt) {
-        var f = evt.target.files[0];
-        var reader = new FileReader();
-        new Compressor(f, {
-            quality: <?php echo env('IMAGE_COMPRESSOR_QUALITY', 0.8); ?>,
-            success(result) {
-                f = result;
-                reader.onload = (function (theFile) {
-                    return function (e) {
+  reader.onload = (function(theFile) {
+    return function(e) {
 
-                        var filePayload = e.target.result;
-                        var val = f.name;
-                        var ext = val.split('.')[1];
-                        var docName = val.split('fakepath')[1];
-                        var filename = (f.name).replace(/C:\\fakepath\\/i, '')
+      var filePayload = e.target.result;
+      var val =f.name;
+      var ext=val.split('.')[1];
+      var docName=val.split('fakepath')[1];
+      var filename = (f.name).replace(/C:\\fakepath\\/i, '')
 
-                        var timestamp = Number(new Date());
-                        var filename = filename.split('.')[0] + "_" + timestamp + '.' + ext;
-                        var uploadTask = storageRef.child(filename).put(theFile);
-                        uploadTask.on('state_changed', function (snapshot) {
-                            var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                            console.log('Upload is ' + progress + '% done');
-                            jQuery("#uploding_image").text("Image is uploading...");
+      var timestamp = Number(new Date());
+      var filename = filename.split('.')[0] + "_" + timestamp + '.' + ext;
+      var uploadTask = storageRef.child(filename).put(theFile);
+      console.log(uploadTask);
+      uploadTask.on('state_changed', function(snapshot){
+      
+      var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+      console.log('Upload is ' + progress + '% done');
+      jQuery("#uploding_image").text("Image is uploading...");
+      
+    }, function(error) {
+      
+    }, function() {
+        uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+            
+            jQuery("#uploding_image").text("Upload is completed");
+            photo = downloadURL;
+             $(".item_image").empty();
+            $(".item_image").append('<img class="rounded" style="width:50px" src="'+photo+'" alt="image">');
 
-                        }, function (error) {
-                        }, function () {
-                            uploadTask.snapshot.ref.getDownloadURL().then(function (downloadURL) {
-                                jQuery("#uploding_image").text("Upload is completed");
-                                photo = downloadURL;
-                                $(".item_image").empty()
-                                $(".item_image").append('<img class="rounded" style="width:50px" src="' + photo + '" alt="image">');
+      });
+    });
 
-                            });
-                        });
+    };
+  })(f);
+  reader.readAsDataURL(f);
+}
 
-                    };
-                })(f);
-                reader.readAsDataURL(f);
-            },
-            error(err) {
-                console.log(err.message);
-            },
-        });
-    }
-
+    
     function addOneFunction() {
         $("#add_ones_div").show();
         $(".save_add_one_btn").show();

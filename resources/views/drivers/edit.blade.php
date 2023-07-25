@@ -290,12 +290,8 @@ $(document).ready(function(){
   }
 
     if(user.userBankDetails){
-      if(user.userBankDetails.bankName!=undefined){
-        $("#bankName").val(user.userBankDetails.bankName);
-      }
-      if(user.userBankDetails.branchName!=undefined){
-        $("#branchName").val(user.userBankDetails.branchName);
-      }
+     
+    
       if(user.userBankDetails.holderName!=undefined){
         $("#holderName").val(user.userBankDetails.holderName);
       }
@@ -354,21 +350,12 @@ $(document).ready(function(){
           window.scrollTo(0, 0);
         }else{
 
-            var bankName=$("#bankName").val();
             var branchName=$("#branchName").val();
             var holderName=$("#holderName").val();
             var accountNumber=$("#accountNumber").val();
             var otherDetails=$("#otherDetails").val();
-            var userBankDetails={
-              'bankName':bankName,
-              'branchName':branchName,
-              'holderName':holderName,
-              'accountNumber':accountNumber,
-              'accountNumber':accountNumber,
-              'otherDetails':otherDetails,
-            };
-
-          database.collection('users').doc(id).update({'firstName':userFirstName,'lastName':userLastName,'email':email,'phoneNumber':userPhone,'isActive':active,'profilePictureURL':photo,'carName':carName,'carNumber':carNumber,'location.latitude':latitude,'location.longitude':longitude,'carPictureURL':carPictureURL,'role':'driver','active':user_active_deactivate,'userBankDetails' : userBankDetails}).then(function(result) {
+         
+          database.collection('users').doc(id).update({'firstName':userFirstName,'lastName':userLastName,'email':email,'phoneNumber':userPhone,'isActive':active,'profilePictureURL':photo,'carName':carName,'carNumber':carNumber,'location.latitude':latitude,'location.longitude':longitude,'carPictureURL':carPictureURL,'role':'driver','active':user_active_deactivate,}).then(function(result) {
 
                   window.location.href = '{{ route("drivers")}}';
 

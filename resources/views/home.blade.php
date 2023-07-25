@@ -22,7 +22,13 @@
 				
 				<div class="row business-analytics_list">
 					
-				
+					<div class="col-sm-6 col-lg-3 mb-3">
+						<div class="card-box" onclick="location.href='{!! route('payments') !!}'">
+							<h5>{{trans('lang.dashboard_total_earnings')}}</h5>
+							<h2 id="earnings_count"></h2>
+							<i class="mdi mdi-cash-usd"></i>
+						</div>
+					</div>
 					
 					<div class="col-sm-6 col-lg-3 mb-3">
 						<div class="card-box" onclick="location.href='{!! route('restaurants') !!}'">
@@ -48,7 +54,13 @@
 						</div>
 					</div>
 					
-				
+					<div class="col-sm-6 col-lg-3 mb-3">
+						<div class="card-box" onclick="location.href='{!! route('payments') !!}'">
+							<h5>{{trans('lang.admin_commission')}}</h5>
+							<h2 id="admincommission_count"></h2>
+							<i class="ti-wallet"></i>
+						</div>
+					</div>
 					
 					<div class="col-sm-6 col-lg-3 mb-3">
 						<div class="card-box" onclick="location.href='{!! route('users') !!}'">
@@ -69,12 +81,6 @@
 					<div class="col-sm-6 col-lg-3 mb-3">
 						
 					</div>
-                    <div class="col-sm-6 col-lg-3 mb-3">
-						
-                        </div>
-                        <div class="col-sm-6 col-lg-3 mb-3">
-						
-                        </div>
 					
 					
 					<div class="col-sm-6 col-lg-3">
@@ -147,7 +153,58 @@
 			
 		</div>
 		
-	
+		<div class="row">
+        	
+			<div class="col-lg-4">
+                <div class="card">
+                	<div class="card-header no-border">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="card-title">{{trans('lang.total_sales')}}</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="position-relative">
+                            <canvas id="sales-chart" height="200"></canvas>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-end">
+                            <span class="mr-2"> <i class="fa fa-square" style="color:#2EC7D9"></i> {{trans('lang.dashboard_this_year')}} </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+            	<div class="card">
+                	<div class="card-header no-border">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="card-title">{{trans('lang.service_overview')}}</h3>
+                        </div>
+                    </div>
+					<div class="card-body">
+	                    <div class="flex-row">
+							<canvas id="visitors" height="222"></canvas>
+	                    </div>
+                    </div>
+                </div>
+            </div>	
+            
+            <div class="col-lg-4">
+            	<div class="card">
+                	<div class="card-header no-border">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="card-title">{{trans('lang.sales_overview')}}</h3>
+                        </div>
+                    </div>
+					<div class="card-body">
+            	        <div class="flex-row">
+							<canvas id="commissions" height="222"></canvas>
+	                    </div>
+                    </div>
+                </div>
+            </div>	
+            
+        </div>   
         
         <div class="row daes-sec-sec mb-3">
             <div class="col-lg-6">

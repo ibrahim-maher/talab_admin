@@ -1,9 +1,4 @@
-/*
-Template Name: Admin Press Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /**
  * Table Of Content
  *
@@ -17,11 +12,7 @@ File: scss
  *  8. Custom Templates
  */
 /*
-Template Name: Admin Press Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*Theme Colors*/
 /*bootstrap Color*/
@@ -97,13 +88,13 @@ html {
 }
 
 a {
-    color: #f50101;
+    color: #f31313;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #f50101;
+    color: #f53d05;
 }
 
 a.link {
@@ -111,7 +102,7 @@ a.link {
 }
 
 a.link:hover, a.link:focus {
-    color: #f50101;
+    color: #f31313;
 }
 
 .img-responsive {
@@ -205,7 +196,7 @@ html body .db {
 Blockquote
 *******************/
 html body blockquote {
-    border-left: 5px solid #f50101;
+    border-left: 5px solid #f31313;
     border: 1px solid rgba(120, 130, 140, 0.13);
     padding: 15px;
 }
@@ -554,7 +545,7 @@ Text Colors
 }
 
 .text-warning {
-    color: #f50101 !important;
+    color: #f31313 !important;
 }
 
 .text-success {
@@ -562,7 +553,7 @@ Text Colors
 }
 
 .text-info {
-    color: #f50101 !important;
+    color: #f31313 !important;
 }
 
 .text-inverse {
@@ -578,7 +569,7 @@ html body .text-purple {
 }
 
 html body .text-primary {
-    color: #f50101;
+    color: #f31313;
 }
 
 html body .text-megna {
@@ -590,14 +581,14 @@ html body .text-dark {
 }
 
 html body .text-themecolor {
-    color: #f50101;
+    color: #f31313;
 }
 
 /*******************
 Background Colors
 *******************/
 .bg-primary {
-    background-color: #f50101 !important;
+    background-color: #f31313 !important;
 }
 
 .bg-success {
@@ -605,11 +596,11 @@ Background Colors
 }
 
 .bg-info {
-    background-color: #f50101 !important;
+    background-color: #f31313 !important;
 }
 
 .bg-warning {
-    background-color: #f50101 !important;
+    background-color: #f31313 !important;
 }
 
 .bg-danger {
@@ -621,7 +612,7 @@ html body .bg-megna {
 }
 
 html body .bg-theme {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 html body .bg-inverse {
@@ -684,7 +675,7 @@ Rounds
     font-weight: 400;
     text-align: center;
     border-radius: 100%;
-    background: #f50101;
+    background: #f31313;
 }
 
 .round img {
@@ -699,11 +690,11 @@ Rounds
 }
 
 .round.round-info {
-    background: #f50101;
+    background: #f31313;
 }
 
 .round.round-warning {
-    background: #f50101;
+    background: #f31313;
 }
 
 .round.round-danger {
@@ -715,7 +706,7 @@ Rounds
 }
 
 .round.round-primary {
-    background: #f50101;
+    background: #f31313;
 }
 
 /*******************
@@ -743,11 +734,11 @@ Labels
 }
 
 .label-info {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .label-warning {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .label-danger {
@@ -759,7 +750,7 @@ Labels
 }
 
 .label-primary {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .label-purple {
@@ -789,12 +780,12 @@ Labels
 
 .label-light-info {
     background-color: #cfecfe;
-    color: #f50101;
+    color: #f31313;
 }
 
 .label-light-warning {
     background-color: #fff8ec;
-    color: #f50101;
+    color: #f31313;
 }
 
 .label-light-danger {
@@ -809,7 +800,7 @@ Labels
 
 .label-light-primary {
     background-color: #f1effd;
-    color: #f50101;
+    color: #f31313;
 }
 
 .label-light-inverse {
@@ -876,8 +867,8 @@ Pagination
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-    background-color: #f50101;
-    border-color: #f50101;
+    background-color: #f31313;
+    border-color: #f31313;
 }
 
 .pager li > a,
@@ -1039,7 +1030,7 @@ html body .waves-notransition {
     height: 2.5em;
     line-height: 2.5em;
     border-radius: 50%;
-    -webkit-mask-image: none;
+    webkit-mask-image: none;
 }
 
 .waves-input-wrapper {
@@ -1076,21 +1067,21 @@ html body .waves-notransition {
 }
 
 .badge-success {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .badge-info {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 .table tr th.delete-all, .table tr td.delete-all {
     width: 60px;
 }
 .badge-primary {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .badge-warning {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .badge-danger {
@@ -1240,8 +1231,8 @@ Buttons
 
 .btn-primary,
 .btn-primary.disabled {
-    background: #f50101;
-    border: 1px solid #f50101;
+    background: #f31313;
+    border: 1px solid #f31313;
     -webkit-box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1251,10 +1242,10 @@ Buttons
 
 .btn-primary:hover,
 .btn-primary.disabled:hover {
-    background: #f50101;
+    background: #f31313;
     -webkit-box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
     box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
-    border: 1px solid #f50101;
+    border: 1px solid #f31313;
 }
 
 .btn-primary.active, .btn-primary:active, .btn-primary:focus,
@@ -1268,16 +1259,16 @@ Buttons
 
 .btn-themecolor,
 .btn-themecolor.disabled {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
-    border: 1px solid #f50101;
+    border: 1px solid #f31313;
 }
 
 .btn-themecolor:hover,
 .btn-themecolor.disabled:hover {
-    background: #f50101;
+    background: #f31313;
     opacity: 0.7;
-    border: 1px solid #f50101;
+    border: 1px solid #f31313;
 }
 
 .btn-themecolor.active, .btn-themecolor:active, .btn-themecolor:focus,
@@ -1317,8 +1308,8 @@ Buttons
 
 .btn-info,
 .btn-info.disabled {
-    background: #f50101;
-    border: 1px solid #f50101;
+    background: #f31313;
+    border: 1px solid #f31313;
     -webkit-box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1328,8 +1319,8 @@ Buttons
 
 .btn-info:hover,
 .btn-info.disabled:hover {
-    background: #f50101;
-    border: 1px solid #f50101;
+    background: #f31313;
+    border: 1px solid #f31313;
     -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
     box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
 }
@@ -1345,11 +1336,11 @@ Buttons
 
 .btn-warning,
 .btn-warning.disabled {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
     -webkit-box-shadow: 0 2px 2px 0 rgba(248, 194, 0, 0.14), 0 3px 1px -2px rgba(248, 194, 0, 0.2), 0 1px 5px 0 rgba(248, 194, 0, 0.12);
     box-shadow: 0 2px 2px 0 rgba(248, 194, 0, 0.14), 0 3px 1px -2px rgba(248, 194, 0, 0.2), 0 1px 5px 0 rgba(248, 194, 0, 0.12);
-    border: 1px solid #f50101;
+    border: 1px solid #f31313;
     -webkit-transition: 0.2s ease-in;
     -o-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
@@ -1358,11 +1349,11 @@ Buttons
 
 .btn-warning:hover,
 .btn-warning.disabled:hover {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(248, 194, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(248, 194, 0, 0.2);
     box-shadow: 0 14px 26px -12px rgba(248, 194, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(248, 194, 0, 0.2);
-    border: 1px solid #f50101;
+    border: 1px solid #f31313;
 }
 
 .btn-warning.active, .btn-warning:active, .btn-warning:focus,
@@ -1467,9 +1458,9 @@ Buttons
 }
 
 .btn-outline-primary {
-    color: #f50101;
+    color: #f31313;
     background-color: #ffffff;
-    border-color: #f50101;
+    border-color: #f31313;
     -webkit-box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1478,11 +1469,11 @@ Buttons
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus {
-    background: #f50101;
+    background: #f31313;
     -webkit-box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
     box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
     color: #ffffff;
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .btn-outline-primary.active, .btn-outline-primary:active, .btn-outline-primary:focus {
@@ -1517,9 +1508,9 @@ Buttons
 }
 
 .btn-outline-info {
-    color: #f50101;
+    color: #f31313;
     background-color: transparent;
-    border-color: #f50101;
+    border-color: #f31313;
     -webkit-box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1528,8 +1519,8 @@ Buttons
 }
 
 .btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info.focus {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
     color: #ffffff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
     box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
@@ -1542,9 +1533,9 @@ Buttons
 }
 
 .btn-outline-warning {
-    color: #f50101;
+    color: #f31313;
     background-color: transparent;
-    border-color: #f50101;
+    border-color: #f31313;
     -webkit-box-shadow: 0 2px 2px 0 rgba(248, 194, 0, 0.14), 0 3px 1px -2px rgba(248, 194, 0, 0.2), 0 1px 5px 0 rgba(248, 194, 0, 0.12);
     box-shadow: 0 2px 2px 0 rgba(248, 194, 0, 0.14), 0 3px 1px -2px rgba(248, 194, 0, 0.2), 0 1px 5px 0 rgba(248, 194, 0, 0.12);
     -webkit-transition: 0.2s ease-in;
@@ -1553,8 +1544,8 @@ Buttons
 }
 
 .btn-outline-warning:hover, .btn-outline-warning:focus, .btn-outline-warning.focus {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
     color: #ffffff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(248, 194, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(248, 194, 0, 0.2);
     box-shadow: 0 14px 26px -12px rgba(248, 194, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(248, 194, 0, 0.2);
@@ -1969,7 +1960,7 @@ ul.list-style-none li a {
 }
 
 ul.list-style-none li a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 /*******************
@@ -2326,7 +2317,7 @@ html {
 
 .topbar ul.dropdown-user li a:hover {
     background: #f2f4f8;
-    color: #f50101;
+    color: #f31313;
     text-decoration: none;
 }
 
@@ -2513,7 +2504,7 @@ html {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
-    background: #f50101;
+    background: #f31313;
 }
 
 .right-sidebar .rpanel-title span {
@@ -2614,7 +2605,7 @@ ul#themecolors li a.working:before {
 }
 
 .yellow-theme {
-    background: #f50101;
+    background: #f31313;
 }
 
 .red-theme {
@@ -2622,7 +2613,7 @@ ul#themecolors li a.working:before {
 }
 
 .blue-theme {
-    background: #f50101;
+    background: #f31313;
 }
 
 .purple-theme {
@@ -2673,13 +2664,13 @@ ul#themecolors li a.working:before {
 .blue-dark-theme {
     background: #263238;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #f50101 23%, #f50101 99%);
+    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #f31313 23%, #f31313 99%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #f50101 23%, #f50101 99%);
+    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #f31313 23%, #f31313 99%);
     /* Chrome10-25,Safari5.1-6 */
-    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #f50101), color-stop(99%, #f50101));
-    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #f50101 23%, #f50101 99%);
-    background: linear-gradient(to right, #263238 0%, #263238 23%, #f50101 23%, #f50101 99%);
+    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #f31313), color-stop(99%, #f31313));
+    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #f31313 23%, #f31313 99%);
+    background: linear-gradient(to right, #263238 0%, #263238 23%, #f31313 23%, #f31313 99%);
 }
 
 .purple-dark-theme {
@@ -2770,18 +2761,18 @@ ul#themecolors li a.working:before {
 }
 
 .card-warning {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-info {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-primary {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-dark {
@@ -2849,22 +2840,22 @@ ul#themecolors li a.working:before {
 }
 
 .card-info {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-primary {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-outline-info {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .card-outline-info .card-header {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-outline-inverse {
@@ -2877,12 +2868,12 @@ ul#themecolors li a.working:before {
 }
 
 .card-outline-warning {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .card-outline-warning .card-header {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .card-outline-success {
@@ -2904,12 +2895,12 @@ ul#themecolors li a.working:before {
 }
 
 .card-outline-primary {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .card-outline-primary .card-header {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 /*==============================================================
@@ -2955,7 +2946,7 @@ ul.list-icons li a {
 }
 
 ul.list-icons li a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 ul.list-icons li i {
@@ -3086,7 +3077,7 @@ Dashboard1 chart
 }
 
 .amp-pxl .ct-series-a .ct-bar {
-    stroke: #f50101;
+    stroke: #f31313;
 }
 
 .amp-pxl .ct-series-b .ct-bar {
@@ -3116,7 +3107,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .stylish-table tbody tr:hover, .stylish-table tbody tr.active {
-    border-left: 4px solid #f50101;
+    border-left: 4px solid #f31313;
 }
 
 .stylish-table tbody td {
@@ -3152,7 +3143,7 @@ html body #visitor .c3-chart-arcs-title {
     padding-bottom: 0;
     display: inline-block;
     padding-right: 5px;
- //   border-right: 1px solid #ccc;
+   border-right: 1px solid #ccc;
     margin-right: 5px;
 }
 .orders-tracking-item-details .variant-info ul li span.value {
@@ -3194,13 +3185,13 @@ Dashboard2 chart
 }
 
 .campaign .ct-series-b .ct-area {
-    fill: #f50101;
+    fill: #f31313;
     fill-opacity: 0.1;
 }
 
 .campaign .ct-series-b .ct-line,
 .campaign .ct-series-b .ct-point {
-    stroke: #f50101;
+    stroke: #f31313;
     stroke-width: 2px;
 }
 
@@ -3221,13 +3212,13 @@ Dashboard2 chart
 }
 
 .campaign2 .ct-series-b .ct-area {
-    fill: #f50101;
+    fill: #f31313;
     fill-opacity: 0.1;
 }
 
 .campaign2 .ct-series-b .ct-line,
 .campaign2 .ct-series-b .ct-point {
-    stroke: #f50101;
+    stroke: #f31313;
     stroke-width: 2px;
 }
 
@@ -3253,7 +3244,7 @@ Dashboard3 chart
 }
 
 .total-sales .ct-series-a .ct-bar {
-    stroke: #f50101;
+    stroke: #f31313;
 }
 
 .total-sales .ct-series-b .ct-bar {
@@ -3277,7 +3268,7 @@ Dashboard3 chart
 }
 
 .ct-chart .ct-series-c .ct-slice-donut {
-    stroke: #f50101;
+    stroke: #f31313;
 }
 
 #visitfromworld path.jvectormap-region.jvectormap-element {
@@ -3318,12 +3309,12 @@ Dashboard4 chart
 }
 
 .total-revenue4 .ct-series-a .ct-line {
-    stroke: #f50101;
+    stroke: #f31313;
     stroke-width: 1px;
 }
 
 .total-revenue4 .ct-series-a .ct-point {
-    stroke: #f50101;
+    stroke: #f31313;
     stroke-width: 5px;
 }
 
@@ -3338,7 +3329,7 @@ Dashboard4 chart
 }
 
 .total-revenue4 .ct-series-a .ct-area {
-    fill: #f50101;
+    fill: #f31313;
     fill-opacity: 0.2;
 }
 
@@ -3479,13 +3470,13 @@ widget-chart-page product review
 
 .profile-tab li a.nav-link.active,
 .customtab li a.nav-link.active {
-    border-bottom: 2px solid #f50101;
-    color: #f50101;
+    border-bottom: 2px solid #f31313;
+    color: #f31313;
 }
 
 .profile-tab li a.nav-link:hover,
 .customtab li a.nav-link:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 /*==============================================================
@@ -3507,7 +3498,7 @@ Form addons page
 }
 
 .bootstrap-select .dropdown-menu li a:hover, .bootstrap-select .dropdown-menu li a:focus {
-    color: #f50101;
+    color: #f31313;
     background: #f2f4f8;
 }
 
@@ -3562,10 +3553,10 @@ Form Material page
 .form-material .form-control,
 .form-material .form-control.focus,
 .form-material .form-control:focus {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
     border: 0 none;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -3594,7 +3585,7 @@ Form Material page
 }
 
 .form-control-line .form-control:focus {
-    border-bottom: 1px solid #f50101;
+    border-bottom: 1px solid #f31313;
 }
 
 /*******************/
@@ -3627,7 +3618,7 @@ Form Material page
 }
 
 .floating-labels .has-warning .form-control {
-    border-bottom: 1px solid #f50101;
+    border-bottom: 1px solid #f31313;
 }
 
 .floating-labels .has-success .form-control {
@@ -3668,7 +3659,7 @@ Form Material page
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #f50101;
+    background: #f31313;
     -o-transition: 0.2s ease all;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
@@ -3710,7 +3701,7 @@ Form Material page
 
 .has-warning .bar:before,
 .has-warning .bar:after {
-    background: #f50101;
+    background: #f31313;
 }
 
 .has-success .bar:before,
@@ -3725,7 +3716,7 @@ Form Material page
 
 .has-warning .form-control:focus ~ label,
 .has-warning .form-control:valid ~ label {
-    color: #f50101;
+    color: #f31313;
 }
 
 .has-success .form-control:focus ~ label,
@@ -3765,7 +3756,7 @@ Form Material page
 
 .form-group.issue .help-block ul {
     padding: 0px;
-    color: #f50101;
+    color: #f31313;
 }
 
 .form-group.issue .help-block ul li {
@@ -3844,14 +3835,14 @@ table th {
 
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .datepicker table tr td.today,
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
 }
 
@@ -3896,11 +3887,11 @@ Form icheck
 }
 
 .icolors > li.yellow {
-    background: #f50101;
+    background: #f31313;
 }
 
 .icolors > li.info {
-    background: #f50101;
+    background: #f31313;
 }
 
 .icolors > li.green {
@@ -3963,7 +3954,7 @@ Table-Layout
 }
 
 .color-table.primary-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -3978,12 +3969,12 @@ Table-Layout
 }
 
 .color-table.info-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
 .color-table.warning-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4018,11 +4009,11 @@ Table-Layout
 }
 
 .color-bordered-table.primary-bordered-table {
-    border: 2px solid #f50101;
+    border: 2px solid #f31313;
 }
 
 .color-bordered-table.primary-bordered-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4036,20 +4027,20 @@ Table-Layout
 }
 
 .color-bordered-table.info-bordered-table {
-    border: 2px solid #f50101;
+    border: 2px solid #f31313;
 }
 
 .color-bordered-table.info-bordered-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
 .color-bordered-table.warning-bordered-table {
-    border: 2px solid #f50101;
+    border: 2px solid #f31313;
 }
 
 .color-bordered-table.warning-bordered-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4112,7 +4103,7 @@ Table-Layout
 }
 
 .full-color-table.full-primary-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     border: 0;
     color: #ffffff;
 }
@@ -4122,7 +4113,7 @@ Table-Layout
 }
 
 .full-color-table.full-primary-table tr:hover {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4150,7 +4141,7 @@ Table-Layout
 }
 
 .full-color-table.full-info-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     border: 0;
     color: #ffffff;
 }
@@ -4160,7 +4151,7 @@ Table-Layout
 }
 
 .full-color-table.full-info-table tr:hover {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4169,7 +4160,7 @@ Table-Layout
 }
 
 .full-color-table.full-warning-table thead th {
-    background-color: #f50101;
+    background-color: #f31313;
     border: 0;
     color: #ffffff;
 }
@@ -4179,7 +4170,7 @@ Table-Layout
 }
 
 .full-color-table.full-warning-table tr:hover {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -4314,7 +4305,7 @@ Table-Data Table
 .dt-buttons .dt-button {
     padding: 5px 15px;
     border-radius: 4px;
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
     margin-right: 3px;
 }
@@ -4334,10 +4325,10 @@ Table-Data Table
 
 .dataTables_length select {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4350,10 +4341,10 @@ Table-Data Table
 
 .dataTables_length select:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4369,10 +4360,10 @@ Table-Data Table
 
 .dataTables_filter input {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4389,10 +4380,10 @@ Table-Data Table
 
 .dataTables_filter input:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4454,8 +4445,8 @@ table.dataTable thead .sorting:after {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     color: #ffffff !important;
-    border: 1px solid #f50101;
-    background-color: #f50101;
+    border: 1px solid #f31313;
+    background-color: #f31313;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
@@ -4471,8 +4462,8 @@ table.dataTable thead .sorting:after {
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     color: white;
-    border: 1px solid #f50101;
-    background-color: #f50101;
+    border: 1px solid #f31313;
+    background-color: #f31313;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
@@ -4514,7 +4505,7 @@ Table- editable table
 
 .paging_simple_numbers .pagination .paginate_button.active a,
 .paging_simple_numbers .pagination .paginate_button:hover a {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
 }
 
@@ -4523,10 +4514,10 @@ Table- Footable
 ******************/
 #demo-show-entries {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4540,10 +4531,10 @@ Table- Footable
 
 #demo-show-entries:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4554,10 +4545,10 @@ Table- Footable
 
 #demo-input-search2 {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -4575,10 +4566,10 @@ Table- Footable
 
 #demo-input-search2:focus {
     outline: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(#b1b8bb, #b1b8bb);
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(#b1b8bb), to(#b1b8bb));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(#b1b8bb, #b1b8bb);
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(#b1b8bb, #b1b8bb);
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4715,13 +4706,13 @@ Bootstrap Switch
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
     color: #ffffff;
-    background: #f50101;
+    background: #f31313;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info {
     color: #ffffff;
-    background: #f50101;
+    background: #f31313;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success,
@@ -4733,7 +4724,7 @@ Bootstrap Switch
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning {
     color: #ffffff;
-    background: #f50101;
+    background: #f31313;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger,
@@ -4834,7 +4825,7 @@ Bootstrap Switch
 Date paginator page
 ******************/
 .dp-selected[style] {
-    background-color: #f50101 !important;
+    background-color: #f31313 !important;
 }
 
 .datepaginator-sm .pagination li a,
@@ -4900,7 +4891,7 @@ Vertical tabs
 .tabs-vertical li .nav-link.active,
 .tabs-vertical li .nav-link:hover,
 .tabs-vertical li .nav-link.active:focus {
-    background: #f50101;
+    background: #f31313;
     border: 0px;
     color: #ffffff;
 }
@@ -4911,9 +4902,9 @@ Vertical tabs
 .customvtab .tabs-vertical li .nav-link:focus {
     background: #ffffff;
     border: 0px;
-    border-right: 2px solid #f50101;
+    border-right: 2px solid #f31313;
     margin-right: -1px;
-    color: #f50101;
+    color: #f31313;
 }
 
 .tabcontent-border {
@@ -4928,13 +4919,13 @@ Vertical tabs
 }
 
 .customtab2 li a.nav-link.active {
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
 }
 
 .customtab2 li a.nav-link:hover {
     color: #ffffff;
-    background: #f50101;
+    background: #f31313;
 }
 
 /*******************
@@ -4994,7 +4985,7 @@ Progress bar
 Notification page Jquery toaster
 ******************/
 .jq-icon-info {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -5009,7 +5000,7 @@ Notification page Jquery toaster
 }
 
 .jq-icon-warning {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -5026,8 +5017,8 @@ list and media
 
 .list-group-item.active,
 .list-group .list-group-item.active:hover {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .list-group-item.disabled {
@@ -5070,7 +5061,7 @@ User card page
 }
 
 .el-element-overlay .el-card-item .el-card-content a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 .el-element-overlay .el-card-item .el-overlay-1 {
@@ -5131,8 +5122,8 @@ User card page
 }
 
 .el-element-overlay .el-card-item .el-overlay-1 .el-info > li a:hover {
-    background: #f50101;
-    border-color: #f50101;
+    background: #f31313;
+    border-color: #f31313;
 }
 
 .el-element-overlay .el-card-item .el-overlay {
@@ -5292,7 +5283,7 @@ Timeline page
 }
 
 .timeline-badge.primary {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .timeline-badge.success {
@@ -5300,7 +5291,7 @@ Timeline page
 }
 
 .timeline-badge.warning {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .timeline-badge.danger {
@@ -5308,7 +5299,7 @@ Timeline page
 }
 
 .timeline-badge.info {
-    background-color: #f50101;
+    background-color: #f31313;
 }
 
 .timeline-title {
@@ -5331,16 +5322,16 @@ Horizontal Timeline page
 ******************/
 .cd-horizontal-timeline .events a {
     padding-bottom: 6px;
-    color: #f50101;
+    color: #f31313;
 }
 
 .cd-horizontal-timeline .filling-line,
 .cd-horizontal-timeline .events a.selected::after {
-    background: #f50101;
+    background: #f31313;
 }
 
 .cd-horizontal-timeline .events a.selected::after {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .myadmin-dd .dd-list .dd-item .dd-handle {
@@ -5527,8 +5518,8 @@ ribbons page
     height: 0;
     content: '';
     border: 30px solid transparent;
-    border-top-color: #f50101;
-    border-left-color: #f50101;
+    border-top-color: #f31313;
+    border-left-color: #f31313;
 }
 
 .ribbon-corner.ribbon-right:before {
@@ -5558,53 +5549,53 @@ ribbons page
 }
 
 .ribbon-custom {
-    background: #f50101;
+    background: #f31313;
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-custom:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-custom:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-custom:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-bottom-color: transparent;
 }
 
 .ribbon-primary {
-    background: #f50101;
+    background: #f31313;
 }
 
 .ribbon-bookmark.ribbon-primary:before {
-    border-color: #f50101;
+    border-color: #f31313;
     border-right-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-primary:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-primary:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-primary:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-bottom-color: transparent;
 }
 
 .ribbon-primary.ribbon-corner:before {
-    border-top-color: #f50101;
-    border-left-color: #f50101;
+    border-top-color: #f31313;
+    border-left-color: #f31313;
 }
 
 .ribbon-primary.ribbon-corner.ribbon-right:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-primary.ribbon-corner.ribbon-bottom:before {
     border-top-color: transparent;
-    border-bottom-color: #f50101;
+    border-bottom-color: #f31313;
 }
 
 .ribbon-success {
@@ -5643,73 +5634,73 @@ ribbons page
 }
 
 .ribbon-info {
-    background: #f50101;
+    background: #f31313;
 }
 
 .ribbon-bookmark.ribbon-info:before {
-    border-color: #f50101;
+    border-color: #f31313;
     border-right-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-info:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-info:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-info:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-bottom-color: transparent;
 }
 
 .ribbon-info.ribbon-corner:before {
-    border-top-color: #f50101;
-    border-left-color: #f50101;
+    border-top-color: #f31313;
+    border-left-color: #f31313;
 }
 
 .ribbon-info.ribbon-corner.ribbon-right:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-info.ribbon-corner.ribbon-bottom:before {
     border-top-color: transparent;
-    border-bottom-color: #f50101;
+    border-bottom-color: #f31313;
 }
 
 .ribbon-warning {
-    background: #f50101;
+    background: #f31313;
 }
 
 .ribbon-bookmark.ribbon-warning:before {
-    border-color: #f50101;
+    border-color: #f31313;
     border-right-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-right.ribbon-warning:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-warning:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-warning:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-bottom-color: transparent;
 }
 
 .ribbon-warning.ribbon-corner:before {
-    border-top-color: #f50101;
-    border-left-color: #f50101;
+    border-top-color: #f31313;
+    border-left-color: #f31313;
 }
 
 .ribbon-warning.ribbon-corner.ribbon-right:before {
-    border-right-color: #f50101;
+    border-right-color: #f31313;
     border-left-color: transparent;
 }
 
 .ribbon-warning.ribbon-corner.ribbon-bottom:before {
     border-top-color: transparent;
-    border-bottom-color: #f50101;
+    border-bottom-color: #f31313;
 }
 
 .ribbon-danger {
@@ -5786,8 +5777,8 @@ ribbons page
 session ideal timeout page
 ******************/
 #idletimeout {
-    background: #f50101;
-    border: 3px solid #f50101;
+    background: #f31313;
+    border: 3px solid #f31313;
     color: #fff;
     font-family: arial, sans-serif;
     text-align: center;
@@ -5985,7 +5976,7 @@ Stylish tooltip
     bottom: 100%;
     border-radius: 50%;
     text-align: center;
-    background: #f50101;
+    background: #f31313;
     color: #ffffff;
     opacity: 0;
     margin-bottom: 20px;
@@ -6164,7 +6155,7 @@ Stylish tooltip
 }
 
 .tooltip-text3 {
-    border-bottom: 10px solid #f50101;
+    border-bottom: 10px solid #f31313;
     overflow: hidden;
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1);
@@ -6197,7 +6188,7 @@ Stylish tooltip
     position: absolute;
     pointer-events: none;
     border-color: transparent;
-    border-top-color: #f50101;
+    border-top-color: #f31313;
     border-width: 10px;
     margin-left: -10px;
 }
@@ -6256,7 +6247,7 @@ Stylish tooltip
 
 a.mytooltip {
     font-weight: 500;
-    color: #f50101;
+    color: #f31313;
 }
 
 .tooltip-effect-7 .tooltip-content2 {
@@ -6369,7 +6360,7 @@ google map Page
     color: #ffffff;
     font-size: 16px;
     line-height: 40px;
-    background: #f50101;
+    background: #f31313;
     border-radius: 4px;
     padding: 10px 20px;
 }
@@ -6386,14 +6377,14 @@ google map Page
     bottom: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-top: 16px solid #f50101;
+    border-top: 16px solid #f31313;
 }
 
 .gmaps-overlay_arrow.below {
     top: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-bottom: 16px solid #f50101;
+    border-bottom: 16px solid #f31313;
 }
 
 /*******************
@@ -6430,7 +6421,7 @@ Seach listing Page
 }
 
 .search-listing li h3 a {
-    color: #f50101;
+    color: #f31313;
 }
 
 .search-listing li h3 a:hover {
@@ -6612,10 +6603,10 @@ chat application Page
 .chat-main-box .chat-left-aside .chat-left-inner .form-control {
     height: 60px;
     padding: 15px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f50101), to(#f50101)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
-    background-image: -webkit-linear-gradient(#f50101, #f50101), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: -o-linear-gradient(#f50101, #f50101), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
-    background-image: linear-gradient(#f50101, #f50101), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f31313), to(#f31313)), -webkit-gradient(linear, left top, left bottom, from(rgba(120, 130, 140, 0.13)), to(rgba(120, 130, 140, 0.13)));
+    background-image: -webkit-linear-gradient(#f31313, #f31313), -webkit-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: -o-linear-gradient(#f31313, #f31313), -o-linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
+    background-image: linear-gradient(#f31313, #f31313), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));
 }
 
 .chat-main-box .chat-left-aside .chat-left-inner .style-none {
@@ -6692,7 +6683,7 @@ Email inbox Page
 
 .inbox-panel .list-group .list-group-item.active, .inbox-panel .list-group .list-group-item:hover {
     background: #f2f4f8;
-    border-left: 3px solid #f50101;
+    border-left: 3px solid #f31313;
 }
 
 .inbox-center .unread td {
@@ -6791,7 +6782,7 @@ Contact app Page
 }
 
 .list-style-none li a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 .list-style-none li a span {
@@ -6848,12 +6839,12 @@ Table-Jsgrid table
 
 .jsgrid-pager-page a:hover,
 .jsgrid-pager-nav-button a:hover {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
 .jsgrid-pager-current-page {
-    background-color: #f50101;
+    background-color: #f31313;
     color: #ffffff;
 }
 
@@ -6930,7 +6921,7 @@ use profile section
 }
 
 .user-profile .profile-text > a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 .user-profile .profile-text > a:after {
@@ -6982,7 +6973,7 @@ sidebar navigation
 }
 
 .sidebar-nav {
-    background: #f50101;
+    background: #f31313;
     padding: 0px;
 }
 
@@ -7007,11 +6998,11 @@ sidebar navigation
 
 /*.mini-sidebar .sidebar-nav ul li a{color: #fff !important;}*/
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
-    color: #f50101;
+    color: #f31313;
 }
 
 .sidebar-nav ul li a.active i, .sidebar-nav ul li a:hover i {
-    color: #f50101;
+    color: #f31313;
 }
 
 .sidebar-nav ul li a.active {
@@ -7089,7 +7080,7 @@ sidebar navigation
 }
 
 .mini-sidebar .sidebar-nav #sidebarnav > li:hover a i {
-    color: #f50101;
+    color: #f31313;
 }
 
 .sidebar-nav > ul > li > a .label {
@@ -7112,13 +7103,13 @@ sidebar navigation
 }
 
 .sidebar-nav > ul > li.active > a {
-    color: #f50101;
+    color: #f31313;
     font-weight: 500;
-    border-left: 3px solid #f50101;
+    border-left: 3px solid #f31313;
 }
 
 .sidebar-nav > ul > li.active > a i {
-    color: #f50101;
+    color: #f31313;
 }
 
 .sidebar-nav > ul > li.nav-subtitle {
@@ -7396,11 +7387,11 @@ File: scss
 }
 
 .mailbox .message-center a .user-img .away {
-    background: #f50101;
+    background: #f31313;
 }
 
 .mailbox .message-center a .user-img .offline {
-    background: #f50101;
+    background: #f31313;
 }
 
 .mailbox .message-center a .mail-contnet {
@@ -7471,7 +7462,7 @@ File: scss
 .city-weather-days li i {
     display: block;
     font-size: 20px;
-    color: #f50101;
+    color: #f31313;
 }
 
 .city-weather-days li h3 {
@@ -7527,7 +7518,7 @@ File: scss
 }
 
 .comment-footer .action-icons a:hover, .comment-footer .action-icons a.active {
-    color: #f50101;
+    color: #f31313;
 }
 
 /*******************/
@@ -7748,11 +7739,11 @@ File: scss
 }
 
 .message-box .message-widget a .user-img .away {
-    background: #f50101;
+    background: #f31313;
 }
 
 .message-box .message-widget a .user-img .offline {
-    background: #f50101;
+    background: #f31313;
 }
 
 .message-box .message-widget a .mail-contnet {
@@ -7903,7 +7894,7 @@ File: scss
     margin: 1px -1px 0 -1px;
     padding: 5px 5px;
     text-align: center;
-    background: #f50101;
+    background: #f31313;
 }
 
 .calendar-event {
@@ -7914,7 +7905,7 @@ File: scss
     color: #ffffff;
     min-width: 140px;
     text-align: center;
-    background: #f50101;
+    background: #f31313;
 }
 
 .calendar-event a {
@@ -8620,7 +8611,7 @@ File: scss
 }
 
 .has-warning .col-form-label, .has-warning .custom-control, .has-warning .form-check-label, .has-warning .form-control-feedback, .has-warning .form-control-label {
-    color: #f50101;
+    color: #f31313;
 }
 
 .has-warning .form-control-warning {
@@ -8628,7 +8619,7 @@ File: scss
 }
 
 .has-warning .form-control {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .has-danger .col-form-label, .has-danger .custom-control, .has-danger .form-check-label, .has-danger .form-control-feedback, .has-danger .form-control-label {
@@ -10592,7 +10583,7 @@ main.py-4 {
 }
 
 .profile-text h5 {
-    color: #f50101;
+    color: #f31313;
     font-weight: 700;
 }
 
@@ -10638,11 +10629,11 @@ main.py-4 {
 }
 
 .table tr td.redirecttopage {
-    color: #f50101;
+    color: #f31313;
     cursor: pointer;
 }
 
-/*.table tr td.link-td:hover{background: #f50101;}*/
+/*.table tr td.link-td:hover{background: #f31313;}*/
 .table tr td.redirecttopage:hover {
     color: #000;
 }
@@ -10893,7 +10884,7 @@ body.sticky header.topbar {
     text-transform: uppercase;
     color: #fff;
     padding: 7px 14px;
-    background: #f50101;
+    background: #f31313;
     border-radius: 5px;
 }
 
@@ -10912,8 +10903,8 @@ body.sticky header.topbar {
 }
 
 .btn-warning:hover {
-    background-color: #f50101;
-    border-color: #f50101;
+    background-color: #f31313;
+    border-color: #f31313;
 }
 
 .nav.nav-tabs.align-items-end.card-header-tabs {
@@ -10927,7 +10918,7 @@ body.sticky header.topbar {
 }
 
 .nav-tabs.card-header-tabs .nav-link.active, .nav-tabs.card-header-tabs .nav-link:hover {
-    background: #f50101;
+    background: #f31313;
     color: #fff;
 }
 
@@ -10937,17 +10928,17 @@ body.sticky header.topbar {
 }
 
 .payment-top-tab .nav-tabs.card-header-tabs .nav-link.active, .payment-top-tab .nav-tabs.card-header-tabs .nav-link:hover {
-    border-color: #f50101;
+    border-color: #f31313;
 }
 
 .nav-tabs.card-header-tabs .nav-link span.badge-success {
-    background: #f50101;
+    background: #f31313;
     color: #fff;
 }
 
 .nav-tabs.card-header-tabs .nav-link.active span.badge-success, .nav-tabs.card-header-tabs .nav-link:hover span.badge-success {
     background: #fff;
-    color: #f50101;
+    color: #f31313;
 }
 
 
@@ -10979,7 +10970,7 @@ body.sticky header.topbar {
 }
 
 .checkbox [type="checkbox"]:checked {
-    background: #f50101;
+    background: #f31313;
 }
 
 
@@ -11021,7 +11012,7 @@ ul.rating {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color: #f50101;
+    color: #f31313;
 }
 
 ul.rating li {
@@ -11065,7 +11056,7 @@ ul.rating li {
 }
 
 .review-box .review_count > span {
-    color: #f50101;
+    color: #f31313;
     font-weight: 600;
     padding-left: 10px;
 }
@@ -11090,7 +11081,7 @@ ul.rating li {
 }
 
 .bellow-text ul li > span {
-    color: #f50101;
+    color: #f31313;
     font-size: 19px;
     font-weight: 600;
 }
@@ -11118,15 +11109,15 @@ ul.rating li {
 }
 
 .menu-tab ul li.active a, .menu-tab ul li a:hover {
-    color: #f50101;
-    border-bottom: 1px solid #f50101;
+    color: #f31313;
+    border-bottom: 1px solid #f31313;
 }
 
 
 .pagination > li > a.page-link:hover {
     color: #fff;
-    background-color: #f50101;
-    border-color: #f50101;
+    background-color: #f31313;
+    border-color: #f31313;
 }
 
 .form-group.row.restaurant_image .restaurant_image img {
@@ -11177,9 +11168,9 @@ ul.rating li {
 }
 
 .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-    background: #f50101;
-    border-color: #f50101;
-    box-shadow: 0 0 0 0.2rem #f50101;
+    background: #f31313;
+    border-color: #f31313;
+    box-shadow: 0 0 0 0.2rem #f31313;
 }
 
 
@@ -11200,7 +11191,7 @@ ul.rating li {
     position: absolute;
     top: -3px;
     right: 4px;
-    background: #f50101;
+    background: #f31313;
     border-radius: 50px;
     padding: 3px 8px;
     font-size: 12px;
@@ -11252,7 +11243,7 @@ ul.rating li {
 .order_detail .orderdetail-top ul li {
     display: inline-block;
     padding-right: 15px;
-    border-right: 1px dashed #f50101;
+    border-right: 1px dashed #f31313;
     width: 25%;
     margin-right: -4px;
     padding-left: 15px;
@@ -11510,11 +11501,11 @@ ul.rating li {
 }
 
 .print-btn button {
-    border: 2px solid #f50101;
+    border: 2px solid #f31313;
     font-size: 16px;
     border-radius: 5px;
     padding: 5px;
-    color: #f50101;
+    color: #f31313;
     cursor: pointer;
 }
 
@@ -11608,7 +11599,7 @@ img.rounded-circle {
 }
 
 .language-options select option {
-    background: #f50101;
+    background: #f31313;
 }
 
 
@@ -11617,7 +11608,7 @@ img.rounded-circle {
 #uploding_story_video,#uploding_story_thumbnail{margin-top: 10px;color: green; font-weight: 500;}
 .thumbnail-inner img{width: 100%;}
 #story_thumbnail{position: relative;}
-.remove-story-video,.remove-story-thumbnail{position: absolute;top:5px;right: 4px;background: #f50101;border-radius: 50px;padding: 3px 8px;font-size: 12px;
+.remove-story-video,.remove-story-thumbnail{position: absolute;top:5px;right: 4px;background: #f31313;border-radius: 50px;padding: 3px 8px;font-size: 12px;
 color: #fff;cursor: pointer;}
 
 .working_hours_div table.booking-table{width: 100%;}
@@ -11757,7 +11748,7 @@ color: #fff;cursor: pointer;}
     cursor: pointer;
     position: absolute;
     right: -8px;
-    background: #f50101;
+    background: #f31313;
     color: #fff;
     border-radius: 50px;
     width: 20px;
@@ -11873,7 +11864,7 @@ color: #fff;cursor: pointer;}
     top: -4px;
     width: 20px;
     height: 20px;
-    background: #f50101;
+    background: #f31313;
     color: #fff;
     font-size: 9px;
     text-align: center;
